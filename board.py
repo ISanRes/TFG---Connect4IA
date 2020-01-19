@@ -123,6 +123,7 @@ class Board(object):
 
         inputToModel = np.zeros((2,6,7))
         newboard = self.convertIntoTable()
+        newboard = np.transpose(newboard)
 
         for col in range(self.WIDTH):
             for row in range(self.HEIGHT):
