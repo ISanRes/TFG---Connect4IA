@@ -82,7 +82,9 @@ def moveToChildNode(node, board, move):
 if __name__ == "__main__":
     print('Empieza la partida')
 
-    # numRepeticiones=input("Introduce cuantas veces quieres que se realice la partida entre los jugadores escogidos: ")
+    # numRepeticiones = input("Introduce cuantas veces quieres que se realice la partida entre los jugadores escogidos: ")
+    # red = input("Introduce si vas a usar red (1) o si usaras uno de los algoritmos que no la requieren (0): ")
+    
     red = 1
     numRepeticiones = 1
     dephts = [1]
@@ -96,15 +98,20 @@ if __name__ == "__main__":
         statsOneDepht = []
         start = time.time()
         for i in range(int(numRepeticiones)):
-            # Al crear un Game el tercer parametro indica que clase de jugador sera
+            
+            # El primer parametro indica la profundidad a la que buscara el MM o el AB, si no usas uno de esos da igual lo que pongas
+
+            # El segundo parametro indica si es el jugador 1 o el 2, True para el 1 y False para el 2
+
+            # El tercer parametro indica que clase de jugador sera
             # 1,2,11,12 indica un jugador AB con la heuristica correspondiente
             # 666 indica jugador random
             # 99 indica jugador MCTS
             # 0 indica jugador con red
 
-            # game = Game(ABPlayer(5, True, 1), ABPlayer(5,False, 11))
+            # El cuarto parametro indica la red, si usas AZ tienes que poner best_NN, si no pon None
+            
             game = Game(RandomPlayer(0, True, 666, None), MCTSPlayer(0, False, 99, None))
-            # game = Game(ABPlayer(depht, True, 11), MCTSPlayer(0, False, 99))
             board = Board()
             if red == 1:
                 best_NN = model.Residual_CNN(settings.REG_CONST, settings.LEARNING_RATE, (2,board.HEIGHT, board.WIDTH)
