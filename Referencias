@@ -1,0 +1,52 @@
+En este documento se definirán todas las referencias que se han ido utilizando a lo largo del proyecto para que sea más sencillo 
+ir añadiéndolas al informe final.
+
+
+AlphaZero
+
+  + Repo donde está el código que se ha estudiado y usado para entrenar la red neuronal: 
+      https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning.git
+      
+  + Artículo explicativo que explica el código:
+      https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188
+      How to build your own AlphaZero AI using Python and Keras, David Foster, 26/01/2018
+      
+  + Vídeo explicando la integración del MCTS en AZ:
+      https://www.youtube.com/watch?v=NjeYgIbPMmg
+      
+  + Artículo explicando la implementación del MCTS en AZ:
+      https://web.stanford.edu/~surag/posts/alphazero.html
+      A Simple Alpha(Go) Zero Tutorial, Surag Nair, 29/12/2017
+      
+  + Artículo explicando el efecto de los híperparámetros que afectan al comportamiento del AZ pero no relacionados con la NN:
+  + También explica en más profundidad la métrica que usa el MCTS en AZ
+      https://medium.com/oracledevs/lessons-from-alphazero-part-3-parameter-tweaking-4dceb78ed1e5
+      Lessons from AlphaZero (part 3): Parameter Tweaking, Aditya Prasad, 21/06/2018
+   
+Monte Carlo Tree Search
+
+   + Vídeo explicando el algoritmo con ejemplo:
+      https://www.youtube.com/watch?v=UXW2yZndl7U
+      
+   + Artículo explicando el algoritmo en profundidad:
+      https://towardsdatascience.com/monte-carlo-tree-search-158a917a8baa
+      Monte Carlo Tree Search, Sagar Sharma, 01/08/2018
+      
+Connect 4
+
+   + Tesis explicando al detalle el juego, usada para implementar la clase Board:
+      http://www.informatik.uni-trier.de/~fernau/DSL0607/Masterthesis-Viergewinnt.pdf
+      A Knowledge-based Approach of Connect-Four, Victor Allis, 10/1988
+      
+   + Artículo explicando diferenctes acercamientos a heurísticas usado para hacerse una idea de cómo mejorar las heurísticas:
+      Research on Different Heuristics for Minimax Algorithm Insight from Connect-4 Game, Xiyu Kang et. al.
+      Disponible en  Journal of Intelligent Learning Systems and Applications, Enero 2019
+      
+Temporal Difference Learning
+
+   + Vídeo que presenta la implementación del TDL sobre una base de MCTS:
+      https://www.youtube.com/watch?v=L64E_NTZJ_0
+    
+   + Libro explicando la implementación anterior en profundidad:
+      http://incompleteideas.net/book/RLbook2018.pdf
+      Reinforcement Learning, an Intorduction: Richard S Sutton, Andrew G Barto
