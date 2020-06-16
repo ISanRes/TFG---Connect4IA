@@ -7,7 +7,7 @@ En este código se implementan los siguientes algoritmos:
       + Monte Carlo Tree Search (MCTS)
       + MCTS con la utilización de una red neuronal (Código derivado del algoritmo AlphaZero)
       
-Para este último se ha hecho solo la implementacion que utiliza una red neuronal entrenada con el algoritmo descrito en el repositorio https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning.git
+Para este último se ha hecho la implementacion que utiliza una red neuronal entrenada con el código del repositorio https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning.git
 
 
 
