@@ -7,7 +7,7 @@ En este código se implementan los siguientes algoritmos:
       + Monte Carlo Tree Search (MCTS)
       + MCTS con la utilización de una red neuronal (Código derivado del algoritmo AlphaZero)
       
-Para este último se ha hecho solo la implementacion que utiliza una red neuronal entrenada con el algoritmo descrito en el repositorio https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning.git
+Para este último se ha hecho la implementacion que utiliza una red neuronal entrenada con el código descrito en el repositorio https://github.com/AppliedDataSciencePartners/DeepReinforcementLearning.git
 
 
 
@@ -24,4 +24,4 @@ El código está formado por los siguientes ficheros:
                   
       + board.py: En este fichero se define la clase del tablero y todas las funciones que se le pueden aplicar, como hacer un movimiento o mirar el estado actual de la partida    
       
-      +loss.py, model.py: Ambos ficheros son del repositorio anteriormente mencionado y regulan la carga de la red y la función de pérdida
+      +loss.py, model.py: Regulan la carga de la red y la función de pérdida que se aplica durante el entrenamiento
